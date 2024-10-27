@@ -1,6 +1,6 @@
 package com.example.mascotas.fragment;
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 import com.example.mascotas.adapter.MascotaAdaptador;
 
 import java.util.ArrayList;

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.example.mascotas.adapter.MascotaAdaptador;
+import com.example.mascotas.pojo.Mascota;
 
 import java.util.ArrayList;
 

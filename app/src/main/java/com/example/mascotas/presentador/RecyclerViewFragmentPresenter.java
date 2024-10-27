@@ -2,7 +2,7 @@ package com.example.mascotas.presentador;
 
 import android.content.Context;
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 import com.example.mascotas.db.ConstructorMascotas;
 import com.example.mascotas.fragment.IRecyclerViewFragmentView;
 

@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 
 import java.util.ArrayList;
 

@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 import com.example.mascotas.R;
 import com.example.mascotas.db.ConstructorMascotas;
 

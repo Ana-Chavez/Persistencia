@@ -3,7 +3,7 @@ package com.example.mascotas.db;
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 import com.example.mascotas.R;
 
 import java.util.ArrayList;

@@ -5,13 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mascotas.Mascota;
+import com.example.mascotas.pojo.Mascota;
 import com.example.mascotas.R;
 import com.example.mascotas.adapter.MascotaAdaptador;
 import com.example.mascotas.presentador.IRecyclerViewFragmentPresenter;

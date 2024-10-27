@@ -1,4 +1,4 @@
-package com.example.mascotas;
+package com.example.mascotas.pojo;
 
 public class Mascota {
     private int id;
