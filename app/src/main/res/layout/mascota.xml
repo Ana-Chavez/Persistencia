@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Imagen de la mascota -->
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/icBlanco"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/hueso_blanco"
+                android:background="@android:color/transparent"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:contentDescription="btnLike"/>
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Nombre Mascota"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ratingMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginStart="8dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/icNaranja"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/hueso_naranja"
+                android:layout_marginStart="8dp"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
